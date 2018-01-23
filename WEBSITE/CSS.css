@@ -1,0 +1,43 @@
+/*navigation bar*/
+
+#Nav {
+    width: 100%;
+    height: 4.5em;
+    background-color: #3795a8;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+}
+
+body {
+    background-color: #b5b5b5;
+}
+
+
+/*top left menu button*/
+
+#menu {
+    height: 4em;
+    width: 100%;
+    position: fixed;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#button {
+    font-size: 2em;
+    margin: auto;
+}
+
+#search {
+    position: absolute;
+    margin-right: 2em;
+    margin: auto;
+    margin-left: 85%;
+    margin-top: .75em;
+    background-color: transparent;
+    border-color: #0f8faf;
+    border-radius: 1em;
+}
