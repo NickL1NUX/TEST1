@@ -218,3 +218,12 @@ footer{
     width:100%;
     margin-bottom:5px;
   }
+
+#Checkbox1{
+  margin-right: 150px;
+  vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    float: left;
+
+}
