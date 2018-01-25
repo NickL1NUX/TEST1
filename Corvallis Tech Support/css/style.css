@@ -13,6 +13,11 @@ body{
 
 }
 
+.highlight{
+  color:#256ddd;
+  font-weight:bold;
+}
+
 ul{
   margin:0;
   padding:0;
@@ -83,7 +88,13 @@ header nav{
 
 }
 
-header .highlight, header .current a{
+header .highlight{
+  color:#256ddd;
+  font-weight:bold;
+  font-size:33px;
+}
+
+header .current a{
   color:#256ddd;
   font-weight:bold;
 }
@@ -94,11 +105,27 @@ header a:hover{
 }
 
 /*showcase*/
-#showcase{
+.slider{
+  min-width:800px;
   min-height:400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  background: url(../img/img-1.jpg);
   text-align:center;
   color:#ffffff;
+  animation: slide 30s infinite;
+}
+@keyframes slide{
+  25%{
+    background: url(../img/component.png);
+  }
+  50%{
+    background: url(../img/tech_support.png);
+  }
+  75%{
+    background: url(../img/support.png)
+  }
+  100%{
+    background: url(../img/img-1.jpg)
+  }
 }
 
 #showcase h1{
@@ -226,4 +253,20 @@ footer{
     bottom: 1px;
     float: left;
 
+}
+
+  #label{
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+
+h3 #serviceform .serviceform{
+  font-style: italic;
+  color:#35424a;
+}
+
+.slider{
+  width: 800px;
+  height: 400px;
+  background: url(img-1.jpg)
 }
